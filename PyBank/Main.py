@@ -68,6 +68,7 @@ print(f"Greatest Increase in Profits: {increase_date} (${str(increase)})")
 print(f"Greatest Decrease in Profits: {decrease_date} (${str(decrease)})")
 
 #Exporing to output file
+#Output similar to Pypoll format
 output = open("/Users/ernestbondi/Documents/GitHub/PythonChallenges/PyBank/Analysis/output.txt", "w")
 
 line1 = "Financial Analysis"
